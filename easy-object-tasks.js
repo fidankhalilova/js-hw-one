@@ -34,19 +34,3 @@
 // }
 
 // console.log(sum);
-
-var missingNumber = function(nums) {
-    nums.sort((a, b) => a - b);
-    for(let i = 0; i < nums.length; i++) {
-        if(nums[i] === i) {
-            continue;
-        }
-        else {
-            console.log(i);
-            break;
-        }
-    }
-};
-
-var nums = [0, 1];
-missingNumber(nums);
